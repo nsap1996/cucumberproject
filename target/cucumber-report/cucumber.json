@@ -1,0 +1,106 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2023-06-06T12:27:08.362Z",
+        "before": [
+          {
+            "result": {
+              "duration": 649262700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TestRunner.Cucumber_Hooks.BeforeScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Sample Rahul Shetty",
+        "description": "",
+        "id": "sample-feature-file;sample-rahul-shetty",
+        "after": [
+          {
+            "result": {
+              "duration": 456669800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TestRunner.Cucumber_Hooks.AfterScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2591404000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Enter the Url",
+            "match": {
+              "location": "gluecode.Sample.enter_the_Url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 214212800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Enter User Name",
+            "match": {
+              "location": "gluecode.Sample.enter_User_Name()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 205450100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Enter Password",
+            "match": {
+              "location": "gluecode.Sample.enter_Password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 117687900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Click on Login Button",
+            "match": {
+              "location": "gluecode.Sample.click_on_Login_Button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1117281600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Verify Home Page",
+            "match": {
+              "location": "gluecode.Sample.verify_Home_Page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Sample feature file",
+    "description": "",
+    "id": "sample-feature-file",
+    "keyword": "Feature",
+    "uri": "file:Cesta_Project/features/Sample.feature",
+    "tags": []
+  }
+]
